@@ -49,7 +49,7 @@ class test_api(unittest.TestCase):
 
         d = v.copy()
         for i in range(len(d)):
-            if d[i] in ['JACK', 'QUEEN', 'KING', 'ACE']:
+            if d[i] in ['JACK', 'QUEEN', 'KING']:
                 d[i] = 10
             elif d[i] == 'ACE':
                 d[i] = 1
@@ -78,7 +78,7 @@ class test_api(unittest.TestCase):
 
         a = u.copy()
         for i in range(len(a)):
-            if a[i] in ['JACK', 'QUEEN', 'KING', 'ACE']:
+            if a[i] in ['JACK', 'QUEEN', 'KING']:
                 a[i] = 10
             elif a[i] == 'ACE':
                 a[i] = 1
